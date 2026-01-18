@@ -109,3 +109,17 @@ The application will be available at `http://localhost:5173`.
 - **Resume Parsing**: Add a feature to automatically fill the registration form from a PDF resume.
 - **Real-time Notifications**: Implement WebSockets for job match alerts.
 - **Advanced Filters**: Enhanced search and filtering on the Job List page.
+
+---
+
+## Team Members
+
+| Name | GitHub |
+|------|--------|
+| **Shivam Dubey** | [GitHub Profile](https://github.com/devsivv) |
+| **Dhrutabrata Biswal** | [GitHub Profile](https://github.com/Dhruta25) |
+| **Saloni Sahoo** | [GitHub Profile](https://github.com/saloni259) |
+
+---
+
+Built by **Byte_Force** team at **January Cohort, NIT Rourkela**
