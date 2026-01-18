@@ -20,13 +20,11 @@ userRouter.route("/logout").post(verifyJWT, logoutUser);
 
 userRouter.route("/match").post(
   verifyJWT,
-  upload.none(),
   checkMatch
 );
 
 userRouter.route("/update").post(
   verifyJWT,
-  upload.none(),
   updateCandidate
 );
 

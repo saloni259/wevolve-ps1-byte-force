@@ -3,7 +3,7 @@ import { useAuth } from "../contexts/AuthContext";
 import api from "../services/api";
 import { toast } from "react-hot-toast";
 import { motion } from "framer-motion";
-import { User, Mail, GraduationCap, Code, Briefcase, MapPin, Save, Edit2 } from "lucide-react";
+import { User, Mail, GraduationCap, Code, Briefcase, MapPin, Save, Edit2, Zap, DollarSign, CheckCircle } from "lucide-react";
 
 const DashboardPage = () => {
     const { user, updateUser } = useAuth();
@@ -132,6 +132,6 @@ const DashboardPage = () => {
     );
 };
 
-const CheckCircle = ({ size, color }) => <Zap size={size} color={color} />; // Fallback
+
 
 export default DashboardPage;
